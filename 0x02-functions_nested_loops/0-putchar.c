@@ -1,7 +1,8 @@
 #include"main.h"
 /**
  * main -entry function
- * return 0
+ *
+ * return:always(0)
  */
 int main(void)
 {
