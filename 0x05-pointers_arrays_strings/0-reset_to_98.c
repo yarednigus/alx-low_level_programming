@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-/**
- * reset_to_98 - takes a pointer to an int as parameter and updates the value it points to to 98.
- * @n: pointer to an int.
- * Return: Always (0)
- */
 
+/**
+ * reset_to_98 - a fx that takes a pointer as it's argument and updates
+ * the value it ponts to
+ * @n: input
+ * retuen : n
+ */
 void reset_to_98(int *n)
 {
 	*n = 98;
