@@ -1,10 +1,7 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * _puts: prints string
- * @str: prameter for f
- * Return: always 0
+ * _puts - prints a string, followed by a new line, to stdout
+ * @str: string to print
  */
 void _puts(char *str)
 {
