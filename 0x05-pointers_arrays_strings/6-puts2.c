@@ -1,18 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * puts: this what finction
- * @str: is the string
- * Return: alswsa 0.
+ * puts2 - prints every other character of a string
+ *@str: pointer to the string
+ * Return: void
  */
-void puts(char *str)
+void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	for(i = 0; i < strlen(str); i +=2)
+	while (str[i] != '\0')
 	{
-		putchar(str[i]);
+		if (i % 2 == 0)
+			putchar(str[i]);
+		i++;
 	}
+
 	putchar('\n');
 }
