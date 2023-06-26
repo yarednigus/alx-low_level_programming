@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main: this change the value of the pointer
- *
+ * reset_to_98: this change the value of the pointer
+ * *n: its pointer
  * Return: Always 0
  */
 
