@@ -3,10 +3,9 @@
 #include <string.h>
 
 /**
- * _ strlen: this function return length of the string
- * @s: input parametnr jojosej sjoe
- *
- * Return: Always 0.
+ * _strlen - returns the length of a string
+ * @s: string
+ * Return: length
  */
 int _strlen(char *s)
 {
