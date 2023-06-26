@@ -5,12 +5,23 @@
  * @s: para
  * Return: 0.
  */
-void print_rev(char *s) {
-    int len = strlen(s);
+void print_rev(char *s)
+{
+	int longi = 0;
+	int o;
 
-    for (int i = len - 1; i >= 0; i--) {
-        putchar(s[i]);
-    }
+	while (*s != '\0')
+	{
+		longi++;
+		s++;
+	}
+	s--;
+	for (o = longi; o > 0; o--)
+	{
+		putchar(*s);
+		s--;
+	}
 
-    putchar('\n');
+	putchar('\n');
 }
+
