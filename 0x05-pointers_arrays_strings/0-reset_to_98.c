@@ -8,6 +8,5 @@
 
 void reset_to_98(int *n)
 {
-	*p = 98;
-	putchcar
+	*n = 98;
 }
