@@ -1,1 +1,0 @@
-#stactic c library
