@@ -1,1 +1,2 @@
-#0x04-python-more_data_structures
+intoduction to doublu linked lists in c
+some exercises and some advanced topics about doubly linked lists and linked lists
